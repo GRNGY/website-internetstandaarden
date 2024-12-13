@@ -1,0 +1,175 @@
+@font-face{
+    font-family:molot;
+    src: url(./molot/Molot.otf)
+}
+@font-face{
+    font-family:typewriter;
+    src: url(./truetypewriter-polyglott-font/TruetypewriterPolyglott-mELa.ttf)
+}
+
+
+body{
+    background-image: url(./img/Scherm\ 2\ home.png);
+    background-repeat: no-repeat;
+}
+
+.afleveringen{
+    background-image: url(./img/Scherm\ 3\ aflvereingen.png);
+    background-repeat: no-repeat;
+}
+
+.over-ons{
+    background-image: url(./img/Scherm\ over\ ons.png);
+    background-repeat: no-repeat;
+}
+
+
+header{
+    font-size:xx-large;
+    font-family:molot;
+}
+
+nav a{
+padding:1em;
+color: #EDEDED;
+display: block;
+text-decoration: none;
+font-size: 1em;
+margin: 0.25rem 0.25rem;
+transition-duration: 0.4s;
+margin-inline:3em;
+text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    
+}
+nav a:hover {
+    color: #131313
+}
+
+
+
+nav ul{
+list-style-type:none;
+text-align: center;
+}
+
+.home main{
+    background-image: url(./img/skibidilogo.png);
+    background-position: center;
+    background-size: 100%;
+    background-position-y: -32em;
+    background-repeat: no-repeat;
+    
+
+}
+
+.over-ons nav a{
+    padding:1em;
+    color: #131313;
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0.25rem 0.25rem;
+    transition-duration: 0.4s;
+    margin-inline:3em;
+    text-align: center;
+    }
+    
+    .over-ons nav a:hover {
+        color: #FC0000
+    }
+    
+
+
+
+
+
+.logo{
+    opacity:0;
+}
+
+h2{
+    font-family: molot;
+    font-size:6em
+
+}
+
+h3{
+    font-family: molot;
+    font-size:1.5em;
+    color: #131313;
+}
+
+p{
+    font-family:typewriter;
+    font-size:1.5em;
+}
+
+.teaser {
+color: #EDEDED;
+text-align: center;
+margin-top: -6em;
+
+}
+
+div iframe{
+margin-top: 8em;
+border: none;
+}
+
+.nieuwste-aflevering{
+    color: #EDEDED;
+    text-align: center;
+    margin-top: 15em;
+    
+}
+
+.nieuwste-aflevering h3{
+    color: #131313;
+    margin-top: -3.5em;   
+}
+
+.nieuwste-aflevering p{
+    color: #EDEDED;
+    width: 41em;
+    margin-left: 19em;
+}
+
+.thumbnail{
+    margin-left: -90em;
+    margin-top: -8em;
+}
+
+.balk{
+    margin-left: 5em;
+}
+
+.afleveringen main{
+    font-family:molot;
+    font-size: xx-large;
+    margin-top: 10em;
+}
+h1{
+    text-align: center;
+}
+
+.over-ons main{
+    font-family:molot;
+    font-size: xx-large;
+    margin-top: 10em;
+}
+h1{
+    text-align: center;
+}
+
+.iframe-container{
+    text-align: center;
+}
+
+.playbutton{
+    margin-left:-58em;
+    margin-top: -3em;
+}
